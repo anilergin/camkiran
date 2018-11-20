@@ -1,0 +1,27 @@
+.g5plus-slider-container {
+  opacity: 0;
+}
+.g5plus-slider-container.slick-initialized {
+  opacity: 1;
+}
+.g5plus-slider-container.column-gap-10 {
+  margin: 0 -5px;
+}
+.g5plus-slider-container.column-gap-10 .slick-slide {
+  padding: 0 5px;
+  background-clip: content-box;
+}
+.g5plus-slider-container.column-gap-20 {
+  margin: 0 -10px;
+}
+.g5plus-slider-container.column-gap-20 .slick-slide {
+  padding: 0 10px;
+  background-clip: content-box;
+}
+.g5plus-slider-container.column-gap-30 {
+  margin: 0 -15px;
+}
+.g5plus-slider-container.column-gap-30 .slick-slide {
+  padding: 0 15px;
+  background-clip: content-box;
+}
